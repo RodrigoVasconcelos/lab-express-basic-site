@@ -1,0 +1,92 @@
+/*********COLORS*********/
+/*
+green: #85CC9D;
+blue: #B5E0D6;
+yellow; #F6F15E;
+pink: #F892C7;
+red: #F45670;
+purple: #501047;*/
+
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Reenie+Beanie|Sacramento');
+
+#alice {}
+
+#vasco {}
+
+#constança {}
+
+#carlos {}
+
+body {
+  background-color: rgb(154, 209, 232, 0.2);
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  text-align: center;
+}
+
+.nav-bar {
+  background-color: rgb(154, 209, 232, 0.2);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+}
+
+.img-nav img {
+background: white;
+border-radius: 100%;
+width: 150px;
+}
+
+.nav-menu {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.nav-menu ul {
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  padding: 0;
+}
+
+.nav-menu li {
+  font-size: 2em;
+  list-style-type: none;
+  margin: auto 0;
+  width: 160px;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.nav-menu a {
+  color: #5C7CB3;
+  font-family: 'Delius Swash Caps', cursive;
+  text-decoration-line: none;
+}
+
+.livro {
+  width: 40%;
+}
+
+.sobrinhos {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 100%;
+  margin-top: -30px; 
+  width: 350px;
+  
+}
+
+h2 {
+  color: #5C7CB3;
+  font-size: 2.5rem;
+  font-family: 'Delius Swash Caps', cursive;
+  margin-top: -30px;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.3);
+}
